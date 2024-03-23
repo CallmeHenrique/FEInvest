@@ -1,0 +1,101 @@
+To Be:
+Realizar Investimento:
+1. Usuário acessa sistema.
+2. Sistema exibe campos de identificação do usuário.
+3. Usuário insere as informações de identificação.
+4. Sistema exibe opções para o usuário.
+5. Usuário escolhe a opção de tipo de investimento.
+6. Sistema exibe opções de solicitação.
+7. Usuário escolhe o tipo de investimento.
+8. Sistema gera relatório com os investimentos do tipo selecionado.
+9. Usuário escolher como investir, quanto tempo, onde investir.
+10. Sistema exibe opção de confirmar investimento.
+11. Usuário confirma investimento.
+12. Sistema faz o investimento no ativo e envia comprovante para o usuário.
+
+Consultar Investimento:
+1. Usuário acessa sistema.
+2. Sistema exibe campos de identificação do usuário.
+3. Usuário insere as informações de identificação.
+4. Sistema exibe opções para o usuário.
+5. Usuário escolhe a opção de consultar investimento.
+6. Sistema exibe os investimentos feitos previamente.
+7. Usuário seleciona o investimento.
+8. Sistema exibe informações e relatórios do investimento.
+
+Consultar Valores de Ativos:
+1. Usuário acessa sistema.
+2. Sistema exibe campos de identificação do usuário.
+3. Usuário insere as informações de identificação.
+4. Sistema exibe opções para o usuário.
+5. Usuário escolhe a opção consultar ativos.
+6. Sistema exibe os ativos.
+7. Usuário seleciona um ativo.
+8. Sistema exibe relatório sobre ativo escolhido.
+
+Casos de Uso:
+Identificar-se
+Escolher investimento
+Definir características do investimento
+Confirmar investimento
+Consultar investimento
+Selecionar investimento
+Exibir ativo
+Consultar ativo
+
+Histórias de usuário:
+H1. Como investidor, eu posso identificar-se no sistema, para obter acesso as funcionalidades do sistema	.
+H2. Como investidor, eu posso escolher o investimento de ativos, para decidir em qual tipo de ativo vou investir meu patrimônio.
+H3. Como investidor, eu posso definir as características do meu investimento, para definir o período, quantidade, ativo investido.
+H4. Como investidor, eu posso confirmar meu investimento, para aprovar que o sistema faça o investimento dentro dos parâmetros escolhidos.
+
+H5. Como investidor, eu posso consultar meus investimentos, para observar todo o histórico dos meus investimentos
+H6. Como investidor, eu posso selecionar um dos meus investimentos, para obter um relatório sobre ele.
+
+H7. Como investidor, eu posso solicitar a exibição dos ativos cadastrados no sistema, para mostrar os possíveis ativos de consulta.
+H8. Como investidor, eu posso consultar um ativo, para receber informações sobre o ativo que selecionei.
+
+Critérios de aceite:
+H1.
+- O investidor não pode acessar as funcionalidades do sistema se não tiver suas informações nos registros do sistema.
+- O sistema encontrando o registro do investidor, o sistema deve exibir as funcionalidades.
+
+H2.
+- O investidor não pode escolher os investimentos se não tiver suas informações nos registros do sistema.
+- O investidor escolhendo o tipo do investimento, o sistema deve exibir os ativos que podem ser investidos.
+- O sistema não encontrando ativos que podem ser investidos deve informar que não possui ativos disponíveis para investimento.
+
+H3.
+- O investidor não pode escolher as características do investimento se não tiver algum ativo selecionado para investir.
+
+H4.
+- O sistema não pode fazer o investimento sem a confirmação do investidor.
+- O investidor não pode confirmar o investimento sem definir as características do investimento.
+- O investidor confirmando o investimento, o sistema deve retornar um comprovante de investimento.
+
+H5.
+- O investidor não pode consultar seus investimentos se ele não tiver nenhum histórico de investimento.
+- O sistema deve informar para o investidor caso ele não possua histórico de investimentos.
+
+H6.
+- O investidor não pode selecionar investimentos se não houver feito nenhum investimento antes.
+- O investidor selecionando o investimento, o sistema deve informar um relatório sobre seus investimentos.
+
+H7.
+- O investidor selecionando a opção de exibição dos ativos, o sistema deve informar todos os ativos cadastrados.
+- Caso o sistema não tenha nenhum ativo cadastrado, informar ao investidor que não possui nenhum ativo disponível para exibição.
+
+H8.
+- O investidor não pode selecionar ativos se o sistema não possuir ativos disponíveis.
+- O investidor selecionando o ativo, o sistema deve exibir um relatório com os ativos.
+
+Backlog do Produto:
+ID	Funcionalidade
+H1	Identificar-se
+H2	Escolher investimento
+H3	Definir características do investimento
+H4	Confirmar investimento
+H5	Consultar investimento
+H6	Selecionar investimento
+H7	Exibir ativo
+H8	Consultar ativo
