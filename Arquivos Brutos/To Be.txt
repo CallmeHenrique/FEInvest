@@ -11,7 +11,7 @@ Realizar Investimento:
 9. Usuário escolher como investir, quanto tempo, onde investir.
 10. Sistema exibe opção de confirmar investimento.
 11. Usuário confirma investimento.
-12. Sistema faz o investimento no ativo e envia comprovante para o usuário.
+12. Sistema faz o investimento no ativo e envia comprovante para o usuário..
 
 Consultar Investimento:
 1. Usuário acessa sistema.
